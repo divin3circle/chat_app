@@ -2,6 +2,9 @@
 triple:          'x86_64-apple-darwin'
 binary-path:     '/Users/sylusabel/Desktop/development/clang_projects/chat_app/src/output/main'
 relocations:
-  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100000D80, symSize: 0x16C }
-  - { offsetInCU: 0x70, offset: 0x70, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100000D80, symSize: 0x16C }
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100000BD0, symSize: 0x1E0 }
+  - { offsetInCU: 0x70, offset: 0x70, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100000BD0, symSize: 0x1E0 }
+  - { offsetInCU: 0xE4, offset: 0xE4, size: 0x8, addend: 0x0, symName: _createIPv4Address, symObjAddr: 0x1E0, symBinAddr: 0x100000DB0, symSize: 0x70 }
+  - { offsetInCU: 0x128, offset: 0x128, size: 0x8, addend: 0x0, symName: _createTCPIpv4socket, symObjAddr: 0x250, symBinAddr: 0x100000E20, symSize: 0x50 }
+  - { offsetInCU: 0x150, offset: 0x150, size: 0x8, addend: 0x0, symName: __OSSwapInt16, symObjAddr: 0x2A0, symBinAddr: 0x100000E70, symSize: 0x20 }
 ...
